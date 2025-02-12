@@ -1,1 +1,17 @@
 
+/* Navbar e Body com a mesma cor de fundo */
+.navbar, body {
+    background-color: rgb(33, 37, 41); /* Cor #212529 (Escuro) */
+    color: white; /* Cor do texto */
+  }
+  
+  /* Alterar cor do link na navbar */
+  .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 18px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffcc00 !important; /* Cor ao passar o mouse */
+  }
+  
